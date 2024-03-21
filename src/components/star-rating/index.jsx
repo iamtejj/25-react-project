@@ -25,11 +25,12 @@ export default function Starration({noOfStar}){
                         <>
                        
                         <FaStar 
+                        key={`star-${index}`}
                         className={(index <= (hover || rating)) ? "active" :"noactive"}
                         onClick={()=>handleClick(index)}
                         onMouseMove={()=>handleMouseMove(index)}
                         onMouseLeave={()=>handleMouseLeave()}
-                        size={40} key={index}/>
+                        size={40}/>
                         </>
                     )
                 })
