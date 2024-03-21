@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .wrapper button{
+    flex:0 0 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #614101;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px 10px;
+  }
+  .accordian{
+    width: 500px;
+  }
+  .item{
+    background: #614101;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    
+  }
+  .title{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .content{
+    color: #ffffff;
+    height: auto;
+  }
+  
