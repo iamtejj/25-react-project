@@ -33,7 +33,7 @@ export default function ImageSlider({url,limit,page}){
     useEffect(()=>{
         if(url !== '') fetchImages(`${url}?page=${page}&limit=${limit}`);
 
-    },[url])
+    },[url,limit,page])
 
  
     if(loading){
