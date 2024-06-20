@@ -16,15 +16,14 @@ function App() {
 
   return (
     <>
-      <Accordian />    
+      {/* <Accordian />    
       <RandomColor />
       <Starration noOfStar={10} />
       <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={10} />
       <LoadmoreData />
       <TreeView menus={menus} />
       <QRcodeGenerator />
-      <LightDarkMode />
-
+      <LightDarkMode /> */}
       <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
     </>
   )
